@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livro de Colorir Fofo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Fredoka One', cursive;
+      background: linear-gradient(to bottom, #ffeefc, #e0f7ff);
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      padding: 2rem;
+      background-color: #ffcce5;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #ff3399;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+      gap: 1.5rem;
+    }
+
+    .product img {
+      width: 220px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .description {
+      max-width: 320px;
+      text-align: left;
+    }
+
+    .price {
+      font-size: 1.8rem;
+      margin: 1rem 0;
+    }
+
+    .price s {
+      color: #888;
+      font-size: 1.2rem;
+      margin-right: 0.5rem;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn.whatsapp {
+      background-color: #25D366;
+      color: white;
+    }
+
+    .btn.whatsapp:hover {
+      background-color: #1ebe5b;
+    }
+
+    .btn.buy {
+      background-color: #ff3399;
+      color: white;
+    }
+
+    .btn.buy:hover {
+      background-color: #e62e87;
+    }
+
+    .testimonial {
+      background-color: #fff0f5;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 2rem auto;
+      max-width: 600px;
+      text-align: left;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .testimonial img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Livro de Colorir Super Fofo!</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="product">
+      <img src="/mnt/data/livrinho1.jpg" alt="Livro rosa frente e verso">
+      <div class="description">
+        <h3>Capa rosa - Frente e Verso</h3>
+        <p>O livrinho vem com uma charmosa capa rosa decorada com ilustrações fofas de personagens. No verso, há uma imagem dos mesmos personagens descansando em um sofá. Ideal para quem ama tons suaves e temas kawaii!</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="/mnt/data/livrinho2.jpg" alt="Livro azul e rosa frente">
+      <div class="description">
+        <h3>Duas opções de cores!</h3>
+        <p>Você pode escolher entre a versão <strong>rosa</strong> ou a versão <strong>azul</strong> do livrinho, ambas com o mesmo conteúdo super fofo por dentro. Perfeito para presentear irmãos, amigas ou até colecionar!</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="/mnt/data/livrinho3.jpg" alt="Páginas para colorir">
+      <div class="description">
+        <h3>Ilustrações para colorir</h3>
+        <p>O interior é recheado de ilustrações exclusivas com cenas do cotidiano dos personagens: no quarto, na floresta, em uma confeitaria e até estudando. Um convite à criatividade das crianças (e adultos também!).</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="/mnt/data/livrinho4.jpg" alt="Livro azul frente e verso">
+      <div class="description">
+        <h3>Capa azul - Frente e Verso</h3>
+        <p>A versão azul do livro possui a mesma qualidade e ilustrações adoráveis da versão rosa. Uma escolha perfeita para quem prefere tons frios e quer fugir do tradicional.</p>
+      </div>
+    </div>
+
+    <p class="price">
+      <s>R$ 35,00</s> <strong>R$ 19,99</strong>
+    </p>
+
+    <div class="buttons">
+      <a href="https://s.shopee.com.br/5Afjq0lhy4" class="btn buy">Comprar agora mesmo</a>
+      <a href="https://wa.me/5583996482876" class="btn whatsapp">Conversar no WhatsApp</a>
+    </div>
+
+    <div class="testimonial">
+      <h3>O que estão dizendo:</h3>
+      <p><strong>"Os livros chegaram hj... superou minhas expectativas 😍... minha filha amou! Chegou no prazo, bem embalado!"</strong></p>
+      <img src="/mnt/data/depo1.jpg" alt="Depoimento cliente 1">
+    </div>
+
+    <div class="testimonial">
+      <p><strong>"Muito bom o livro. Capa dura com proteção. Chegou em 3 dias. Super recomendo!"</strong></p>
+      <img src="/mnt/data/depo2.jpg" alt="Depoimento cliente 2">
+    </div>
+
+  </div>
+</body>
+</html>
